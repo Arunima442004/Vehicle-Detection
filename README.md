@@ -14,7 +14,7 @@ This code is designed to track and count vehicles moving up or down across a spe
 - Numpy
 
 
-##Code Explanation
+## Code Explanation
 Main Steps:
 Video Input: Captures the video from the specified file.
 Background Subtraction: Uses the cv2.bgsegm.createBackgroundSubtractorMOG() to detect moving vehicles.
@@ -38,7 +38,7 @@ VEHICLES MOVING UP: 3
 VEHICLES MOVING DOWN: 2
 
 
-##Future Improvements
+## Future Improvements
 Implement more sophisticated tracking algorithms (e.g., Kalman filters, DeepSORT).
 Improve accuracy for occluded vehicles.
 Add functionality to track vehicles moving in different lanes or directions.
